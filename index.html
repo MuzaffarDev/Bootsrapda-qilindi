@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Bootstap</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="h2 text-lg-center mb-5">Movies catalog</h2>
+      <div class="row">
+        <div class="col-5">
+          <input class="form-control mb-3 form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example">
+          <input class="form-control mb-3 form-control-lg" type="text" placeholder="" aria-label=".form-control-lg example">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Categorys</option>
+            <option value="1">Action</option>
+            <option value="2">Kriminal</option>
+            <option value="3">Dramma</option>
+            <option value="3">Melodramma</option>
+            <option value="3">Horror</option>
+            <option value="3">History</option>
+            <option value="3">Anime</option>
+            <option value="3">Travel</option>
+            <option value="3">Carton</option>
+          </select>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Rating</option>
+            <option value="1">Jurassic Park</option>
+            <option value="2">Grey Man</option>
+            <option value="3">Star Wars-3</option>
+          </select>
+          <button type="button" class="btn btn-primary col-12 p-2 mx-auto mb-5">Search</button>
+          <h1 class="h1">Bookmarked movies</h1>
+          <div class="card text-start w-100" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Avangers:Infinity War</h5>
+
+              <a href="#" class="btn btn-danger">Remove</a>
+            </div>
+          </div>
+
+          <div class="card text-start w-100" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">The Lord of Rings</h5>
+
+              <a href="#" class="btn btn-danger">Remove</a>
+            </div>
+          </div>
+
+          <div class="card text-start w-100" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Night Siatle</h5>
+
+              <a href="#" class="btn btn-danger">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-7">
+          <h3 class="h3">Search results:39</h3>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <div class="box">
+            <div class="card lg" style="width: 23rem;">
+              <div class="ratio ratio-1x1"><iframe  src="https://www.youtube.com/embed/HwUSkVSD1xw" title="IT mutaxassislari ITdek xor bo’lmasa bo’ldi | SUBYEKTIVcha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+              <div class="card-body">
+                <h5 class="card-title">Subyektiv</h5>
+               <p> <i class="bi bi-calendar2-fill"></i><span class="text-dark ms-1">2022</span></p>
+               <p> <i class="bi bi-star-fill text-warning"></i><span class="text-dark ms-1">4.6</span></p>
+                <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+<button type="button" class="btn btn-outline-secondary">More info</button>
+<button type="button" class="btn btn-outline-success">Bookmark</button>
+              </div>
+            </div>
+            <div class="card ms-3" style="width: 23rem;">
+              <div class="ratio ratio-1x1"><iframe src="https://www.youtube.com/embed/BmllggGO4pM" title="THE GRAY MAN | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+              <div class="card-body">
+                <h5 class="card-title">Grey Man</h5>
+               <p> <i class="bi bi-calendar2-fill"></i><span class="text-dark ms-1">2022</span></p>
+               <p> <i class="bi bi-star-fill text-warning"></i><span class="text-dark ms-1">8.2</span></p>
+                <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+<button type="button" class="btn btn-outline-secondary">More info</button>
+<button type="button" class="btn btn-outline-success">Bookmark</button>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="...">
+            <ul class="pagination pagination-lg justify-content-center mt-5">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">1</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+        </div>
+    </div>
+  </body>
+</html>
